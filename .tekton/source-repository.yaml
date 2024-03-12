@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: neighbouring-galliform-nodejs-repository
+spec:
+  url: https://github.com/rhtap-hub/neighbouring-galliform-nodejs
